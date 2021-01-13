@@ -21,7 +21,7 @@ const AddMovie = ({ addMovie }) => {
       <input
         type="text"
         className="input_text"
-        placeholder="Title..."
+        placeholder="Enter the movie title..."
         onChange={(e) => {
           setTitle(e.target.value);
         }}
@@ -31,7 +31,7 @@ const AddMovie = ({ addMovie }) => {
       <input
         type="text"
         className="input_text"
-        placeholder="Description..."
+        placeholder="Add some description..."
         onChange={(e) => {
           setDescription(e.target.value);
         }}
@@ -41,7 +41,7 @@ const AddMovie = ({ addMovie }) => {
       <input
         type="text"
         className="input_text"
-        placeholder="Url..."
+        placeholder="Add the poster url..."
         onChange={(e) => {
           setPosterUrl(e.target.value);
         }}
@@ -53,7 +53,7 @@ const AddMovie = ({ addMovie }) => {
         min="1"
         max="5"
         className="input_text"
-        placeholder="Rate..."
+        placeholder="Add a rate..."
         onChange={(e) => {
           setRate(parseInt(e.target.value));
         }}
